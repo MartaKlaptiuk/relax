@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Внутрішня</title>
+	
+	<link rel="stylesheet" href="lib/styles/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="lib/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/css/selectric.css">
+	<link rel="stylesheet" href="lib/css/jquery-ui.css">
+	<link rel="stylesheet" href="lib/css/slick.css">
+	<link rel="stylesheet" href="lib/css/slick-theme.css">
+	<link rel="stylesheet" href="lib/css/selectize.default.css" type="text/css" />
+
+</head>
+<body>
+	<header>
+		<div class="container" id="container-shadow">
+			<div class="header_wrapper flex align-center justify-between" id="hide_burger_blocks">
+				<div class="logo_header">
+					<a href="#">
+						<img src="lib/img/logo.png" alt="Relax">
+						<p>easy event manegment</p>
+					</a>
+					
+				</div>
+				<div class="burger relative">
+					<div class="dropdown_menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<a href="tel:+380443903451" class="mobile_call"><img src="lib/img/phone.png" alt=""></a>
+				<nav class="menu_about">
+					<ul class="flex">
+						<li><a href="#" class="link">О нас</a></li>
+						<li class="borders link"><a href="#">Услуги</a></li>
+						<li><a href="#" class="link">Партнерство</a></li>
+					</ul>
+				</nav>
+				
+				<div class="header_call_back flex align-center">
+					<a href="tel:+380443903451" class="phone">044 390 34 51</a>
+					<a href="#" class="order_online open_modal flex-center">Заказать онлайн</a>
+				</div>
+
+				<div class="languages select">
+					<select name="slct" id="slct" class="custom-select">
+					  <option selected value="Ru">
+						Ru
+					  </option>
+		
+					  <option value="Ukr">
+						Ukr
+					  </option>
+		
+					  <option value="Eng">
+						Eng
+					  </option>
+					</select>
+				  </div>
+			</div>
+		</div>
+		<nav class="main_menu">
+			<div class="container">
+				<ul class="flex justify-between">
+					<li>
+						<a href="#" class="link">Отдых и развлечения</a>
+					</li>
+
+					<li>
+						<a href="#" class="link">Бизнес ивенты</a>
+					</li>
+
+					<li>
+						<a href="#" class="link">Имиджевые мероприятия</a>
+					</li>
+
+					<li>
+						<a href="#" class="link">Путешествия</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="breadcrumbs">
+			<div class="container">
+				<ul class="flex">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Интенсив-туры</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="main_banner main_banner_page">
+			<div class="container center-mobile">
+				
+				<div class="main_banner_wrapper flex justify-between align-center">
+					<div class="main_banner_left">
+						<h1>Интенсив-туры</h1>
+						<span>для работы в новом ритме</span>
+					</div>
+					<div class="main_banner_right">
+						<form class="info-form">
+							<h3>Получите уникальную<br><strong>концепцию мероприятия</strong><br>для вашей компании</h3>
+							<input type="text" name="name" placeholder="Имя:">
+							<input type="text" name="secondname" placeholder="Фамилия:">
+							<input type="text" name="phone" placeholder="Телефон:">
+							<input type="email" name="email" placeholder="E-mail:">
+							<input type="submit" value="Отправить" class="open_modal_after_submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="after_banner">
+			<div class="container">
+				<div class="charakteristick">
+					<div class="flex justify-between">
+						<div>
+							<img src="lib/img/ico_8.png" alt="">
+							<span><strong>2-200</strong> человек</span>
+						</div>
+						<div>
+							<img src="lib/img/ico_9.png" alt="">
+							<span>от <strong>1000</strong> грн.</span>
+						</div>
+						<div>
+							<img src="lib/img/ico_10.png" alt="">
+							<span><strong>1</strong> день - <strong>3</strong> месяца</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="tour_text">
+					<p>Интенсив-тур - это способ перезагрузиться, возможность посмотреть на жизнь и работу под другим углом, отвлечься от рутины, привычного образа жизни и мышления. Встряхните себя и коллектив, окунитесь в новое окружение и зарядитесь положительными эмоциями!</p>
+				</div>
+			</div>
+			<div class="mobile_modal_order">
+				<div class="container">
+					<p>Интенсив-тур - это способ перезагрузиться, возможность посмотреть на жизнь и работу под другим углом, отвлечься от рутины, привычного образа жизни и мышления. Встряхните себя и коллектив, окунитесь в новое окружение и зарядитесь положительными эмоциями!</p>
+				</div>
+			</div>
+		</div>
+		<div class="get_tour">
+			<div class="container">
+				<h3 class="titleh3">Выберите интенсив-тур, который вам подходит:</h3>
+				<div class="tour_wrapper">
+					<a href="#">
+						<img src="lib/img/couple-selfie.png" alt="">
+						<span>Тур на курорт</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/brunch.jpg" alt="">
+						<span>Событийный тур</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/seminar.jpg" alt="">
+						<span>Участие в международной 
+							конференции</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/business-coach.jpg" alt="">
+						<span>Обучение на курсах 
+							за рубежом</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/handshake.png" alt="">
+						<span>Программа обмена 
+							опытом</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/team-meeting.png" alt="">
+						<span>Инсентив программа</span>
+					</a>
+				</div>
+				<a href="#" class="more_tours">Больше мероприятий</a>
+			</div>
+		</div>
+
+		<div class="order_form_mobile">
+			<div class="container">
+				<h3>Нужно что-то особенное?</h3>
+				<p>Заполните форму и в течение 2 часов наш эксперт предоставит вам специальное предложение</p>
+				<div class="flex-center column">
+					<span class="modal_brif submit_button open_modal_brief_home">Заполнить краткий бриф</span>
+					<div class="flex align-center">
+						<i class="fa fa-clock-o"></i>
+						<span class="order_all_time">Всего 1 минута</span>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="order_form">
+			<div class="container flex-center">
+				<form>
+					<h3 class="titleh3">Заполните форму и в течение 2 часов наш эксперт предоставит вам специальное предложение</h3>
+					<p><b>Эксперты relax)</b> составят программу тура, исходя из ваших пожеланий и бизнес-задач. 
+						Каждая концепция интенсив-тура уникальна и нацелена на то, чтобы зарядить вас энергией 
+						и стимулировать к достижению новых вершин.</p>
+					<div class="main_form_data flex">
+						<div class="input_wrapper">
+							<label for="locate">Где проводим?</label>
+							<select name="locate" id="locate2" class="custom-select">
+								<option disabled selected></option>
+								<option value="lvov">Львов</option>
+								<option value="lvov">Киев</option>
+							</select>
+						</div>
+						<div class="input_wrapper input_wrapper2 flex justify-between">
+							<div class="col-3">
+								<label for="q-hu4">Кол-во человек:</label>
+								<div class="number_wrapper border-wrapper number-q-hu4 flex space-between align-center">
+									<span class="number_minus">-</span>
+									<input type="number" name="qhu" id="q-hu4" min="1" max="2000" value="10">
+									<span class="number_plus">+</span>
+								</div>
+							</div>
+							<div class="col-3">
+								<label for="order-date">Дата:</label>
+								<div class="border-wrapper">
+									<input type="text" id="datepicker">
+								</div>
+							</div>
+							<div class="col-3">
+								<label for="q-times2">Сколько дней:</label>
+								<div class="number_wrapper border-wrapper number-q-times2 flex space-between align-center">
+									<span class="number_minus">-</span>
+									<input  type="number" name="qtimes" id="q-times2" min="1" max="20" value="1">
+									<span class="number_plus">+</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main_form_data user-info">
+						<div class="input_wrapper">
+							<label for="form_name">Имя:</label>
+							<input type="text" name="name" id="form_name">
+						</div>
+						<div class="input_wrapper">
+							<label for="form_second_name">Фамилия:</label>
+							<input type="text" name="secondname" id="form_second_name">
+						</div>
+						<div class="input_wrapper">
+							<label for="form_phone">Телефон:</label>
+							<input type="text" name="phone" id="form_phone">
+						</div>
+						<div class="input_wrapper">
+							<label for="form_email">E-mail:</label>
+							<input type="text" name="email" id="form_email">
+						</div>
+					</div>
+					<input type="submit" class="submit_button" value="Отправить">
+				</form>
+			</div>
+		</div>
+
+		<div class="org-tour home_org_tour">
+			<div class="container">
+				<h3 class="titleh3">Организовать интенсив-тур легко:</h3>
+				<div class="about_relax_wrapper_org_tour">
+					<div class="block-slide">
+						<div class="ico43"><img src="lib/img/ico_1.png" alt=""/></div>
+						<span>Оставьте заявку</span>
+						<p>Выберите готовое предложение или закажите индивидуальную программу
+						</p>
+					</div>
+					<div class="block-slide">
+						<div class="ico43"><img src="lib/img/ico_2.png" alt=""/></div>
+						<span>Получите программу 
+							и стоимость</span>
+						<p>В течение 2 часов мы подготовим для вас концепцию и бюджет </p>
+					</div>
+					<div class="block-slide">
+						<div class="ico43"><img src="lib/img/ico_3.png" alt=""/></div>
+						<span>Позвольте нам 
+							позаботиться о деталях</span>
+						<p>Все мероприятия мы организовываем под ключ
+						</p>
+					</div>
+					<div class="block-slide">
+						<div class="ico43"><img src="lib/img/ico_4.png" alt=""/></div>
+						<span>Наслаждайтесь</span>
+						<p>Процессом, отдыхом, качественной организацией и отсутствием стресса. relax)!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info-form-mobile">
+			<div class="container flex-center">
+				<form action="">
+					<p>Получите уникальную 
+						<b>концепцию мероприятия</b> 
+						для вашей компании</p>
+					<input type="text" name="name" placeholder="Имя:">
+					<input type="text" name="secondname"  placeholder="Фамилия:">
+					<input type="text" name="phone"  placeholder="Телефон:">
+					<input type="text" name="email"  placeholder="E-mail:">
+
+					<div class="submit_button open_modal_after_submit">Получить</div>
+				</form>
+			</div>
+		</div>
+		<div class="top-tours">
+			<div class="container">
+				<h3 class="titleh3">Мы подобрали наиболее подходфщие локации<br>для проведения этого мероприятия:</h3>
+				<div class="top-tour-wrapper three-slides-wrapper">
+					<a href="#">
+						<img src="lib/img/djintama.png" alt="">
+						<span class="tour-name">Джинтама-бриз</span>
+						<div class="flex justify-between">
+							<span class="tour-locate">Киевская область</span>
+							<span class="max-hu">до 100 чел</span>
+						</div>
+					</a>
+					<a href="#">
+						<img src="lib/img/edem.png" alt="">
+						<span class="tour-name">Эдем Резорт</span>
+						<div class="flex justify-between">
+							<span class="tour-locate">Львовская область</span>
+							<span class="max-hu">до 200 чел</span>
+						</div>
+					</a>
+					<a href="#">
+						<img src="lib/img/sinevir.png" alt="">
+						<span class="tour-name">Арника. Синевир</span>
+						<div class="flex justify-between">
+							<span class="tour-locate">Закарпатье</span>
+							<span class="max-hu">до 50 чел</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="brainstorm">
+			<div class="container">
+				<h3 class="titleh3">Что вы получите после проведения интенсив-тура:</h3>
+				<div class="brainstorm-wrapper flex justify-between">
+					<div>
+						<div class="ico43"><img src="lib/img/ico_5.png" alt=""/></div>
+						<span>Положительные эмоции</span>
+						<p>Яркие ощущения среди 
+							серых будней. Отдых или учеба 
+							в драйвовой атмосфере</p>
+					</div>
+					<div>
+						<div class="ico43"><img src="lib/img/ico_6.png" alt=""/></div>
+						<span>Продуктивную работу</span>
+						<p>Свежий взгляд на привычный рабочий процесс. План действий на будущее.
+						</p>
+					</div>
+					<div>
+						<div class="ico43"><img src="lib/img/ico_7.png" alt=""/></div>
+						<span>Улучшение коммуникации</span>
+						<p>Объединения, мотивация, видение общей цели.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="partners-slider">
+			<div class="container">
+				<h3 class="titleh3">Мы уже провели мероприятия<br>для этих компаний:</h3>
+				<div class="slider-partners">
+					<div>
+						<img src="lib/img/voda.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/kredo.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/voda.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/lifecell.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/voda.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/kredo.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/voda.png" alt=""/>
+					</div>
+					<div>
+						<img src="lib/img/kredo.png" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search-tours">
+			<div class="container">
+				<h3><strong>relax)</strong> - больше чем обычное ивент-агенство.</h3>
+				<p>Мы объединяем опыт в организации событий, маркетинге, развлечениях, туризме и IT, <br>
+					чтобы предоставить вам лучшие мероприятия и приятный опыт. 
+					</p>
+				<div class="f_search relative flex-center">
+					<span class="span">Организовываем более <strong>100</strong> видов событий</span>
+					<form class="search-form flex align-center">
+						<div class="full-width">
+							<select class="js-example-basic-single" name="search" placeholder="Какой ивент вам нужно организовать?">
+								<option></option>
+								<option value="Популярные_туры">Популярные туры</option>
+								<option value="Путешествия">Путешествия</option>
+								<option value="Популярные_туры">Популярные туры</option>
+								<option value="Путешествия">Путешествия</option>
+							</select>
+						</div>
+						<button type="button" class="ico_search"><i class="fa fa-search" aria-hidden="true"></i></button> 
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="tours-slider">
+			<div class="container">
+				<h3 class="titleh3">Например, мы можем провести для вас:</h3>
+				<div class="tours-slider-wrapper three-slides-wrapper">
+					<a href="#">
+						<img src="lib/img/conference.png" alt="">
+						<span>Семинар</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/business-people.png" alt="">
+						<span>Хакатон</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/happy-businesspeople.png" alt="">
+						<span>Тимбилдинг</span>
+					</a>
+					<a href="#">
+						<img src="lib/img/conference.png" alt="">
+						<span>Семинар</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="subscribe">
+			<img src="lib/img/dYjDOhIFsGA.jpg" alt="">
+			<span class="img__mask"></span>
+			<div class="container">
+				<h3 class="titleh3">Подпишитесь на бесплатный дайджест новых идей<br>для корпоративных мероприятий:</h3>
+				<form>
+					<input type="email" name="email" placeholder="Email">
+					<input type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+		<div class="full-description">
+			<div class="container">
+				<h3 class="titleh3">Закажите интенсив-тур прямо сейчас</h3>
+				<div class="full-desc-wrapper">
+						<div class="flex justify-between block-wrapper show-mobile">
+							<div class="img">
+								<img src="lib/img/happy-traveling.jpg" alt="">
+							</div>
+							<div class="text">
+								<h3>Relax) знает секреты правильного отдыха.</h3>
+								<p>У вас есть свободное время - мы посоветуем, как провести его увлекательно, весело и содержательно: куда пойти, куда поехать в Украине, что посмотреть, идеи для отдыха на выходные или в компании, мастер-классы, экскурсии, концерты и выставки, что послушать, почитать, сделать. Вне зависимости от сезона, времени и финансов, у нас Вы сможете подобрать варианты того, как провести время насыщенно и увлекательно.</p>
+							</div>
+						</div>
+
+						<div class="flex justify-between block-wrapper">
+							<div class="text">
+								<h3>Интересные места Украины: 1000 идей для отдыха</h3>
+								<p><span>Украина - туристическая страна.</span> Она никогда не перестанет удивлять своим разнообразием, культурным наследием, богатой историей и прекрасной природой. Как бы ни манили далекие края и заморские страны, в Украине есть не мало мест и возможностей увлекательно провести отпуск или выходные.</p>
+							</div>	
+							<div class="img">
+								<img src="lib/img/dramatic-view.png" alt="">
+							</div>
+						</div>
+
+						<div class="flex justify-between block-wrapper">
+							<div class="img">
+								<img src="lib/img/tour1.png" alt="">
+							</div>
+							<div class="text">
+								<h3>Украина - это страна вневременного туризма:</h3>
+								<p>Отдых в Украине летом – это не только разнообразие туров на Черное и Азовское море, Одесса, Коблево, Кириловка, Железный Порт, но и еще велосипедные туры в Карпатах, рафтинг по Днестру и Южному Бугу, экотуризм, пешие путешествия, экстремальные развлечения и туры выходного дня, Шацкие озера, фестиваль воздушных шаров и множество других разнообразных и интересных мест.</p>
+							</div>
+						</div>
+						
+						<div class="flex justify-between align-center block-wrapper">
+							<div class="text">
+								<p>Отдых в Украине зимой – это горные трассы в Карпатах, Славское, Яремче, Драгобрат, Буковель, новогодние праздник в этно-стиле, а еще лечебные курорты: Трускавец, Моршин, Поляна, Одесса, Бердянск.</p>
+							</div>	
+							<div class="img">
+								<img src="lib/img/snowboarder.png" alt="">
+							</div>
+						</div>
+
+						<div class="flex justify-between block-wrapper">
+							<div class="img">
+								<img src="lib/img/kiev-pechersk-lavra.png" alt="">
+							</div>
+							<div class="text">
+								<p><b>Интересные места в Украине</b> – многие места в нашей стране заслуженно пользуются мировой славой, это и экскурсионные города (Киев, Львов, Ивано-Франковск, Каменец-Подольский, Одесса, Полтава, Запорожье, Харьков), и старинные замки, христианские святыни, церкви и монастыри, музеи, и природные ландшафты, релакс) поможет открыть вам Украину снова и снова.
+									Отдых в Киеве – выставки, спектакли, концерты, все громкие премьеры, кинотеатры, концертные залы, галереи, ночные клубы и арт-кафе.
+									</p>
+							</div>
+						</div>
+
+						<div class="social-mobile">
+							<a href="#" class="icon flex-center"><i class="fa fa-facebook-f"></i></a>
+							<a href="#" class="icon flex-center"><i class="fa fa-share-alt"></i></a>
+							<a href="#" class="icon flex-center"><i class="fa fa-instagram"></i></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer_top">
+			<div class="container flex">
+				<div class="f_logo">
+					<a href="#"><img src="lib/img/f_logo.png" alt=""/></a>
+					<span class="f_copy">© 2005-2020</span>
+					<ul class="f_offer">
+						<li><a href="#">Публичная оферта</a></li>
+						<li><a href="#">Условия возврата</a></li>
+					</ul>
+				</div>
+				<div class="f_search flex align-center justify-between">
+					<span class="span">Не нашли то, что искали?</span>
+					<form class="search-form flex align-center">
+						<div class="full-width">
+							<select class="js-example-basic-single" name="search" placeholder="Какой ивент вам нужно организовать?">
+								<option></option>
+								<option value="Популярные_туры">Популярные туры</option>
+								<option value="Путешествия">Путешествия</option>
+								<option value="Популярные_туры">Популярные туры</option>
+								<option value="Путешествия">Путешествия</option>
+							</select>
+						</div>
+						<button type="button" class="ico_search"><i class="fa fa-search" aria-hidden="true"></i></button> 
+					</form>
+				</div>
+			</div>
+		</div>
+		<nav class="f_menu">
+			<div class="container">
+				<ul class="flex justify-between">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Наш туроператор</a></li>
+						<li><a href="#">Реклама на сайте</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Организаторам событий</a></li>
+						<li><a href="#">Контакты</a></li>
+
+				</ul>
+			</div>
+		</nav>
+		<div class="f_widget">
+			<div class="container flex justify-between">
+				<div class="menu_widget">
+					<h3>Отдых и развлечения</h3>
+					<ul>
+						<li><a href="#">Корпоративные туры по Украине</a></li>
+						<li><a href="#">Творческие мастер-классы</a></li>
+						<li><a href="#">Кулинарные мастер-классы</a></li>
+						<li><a href="#">Мастер-классы для детей</a></li>
+						<li><a href="#">Корпоративные туры за рубеж</a></li>
+						<li><a href="#">Корпоративные вечеринки</a></li>
+						<li><a href="#">Корпоративный ретрит</a></li>
+						<li><a href="#">Корпоративный Новый Год</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget">
+					<h3>Бизнес-ивенты</h3>
+					<ul>
+						<li><a href="#">Туры на курорты</a></li>
+						<li><a href="#">Событийные туры</a></li>
+						<li><a href="#">Индивидуальная программа</a></li>
+						<li><a href="#">Участие в международной конференции</a></li>
+						<li><a href="#">Обучение на курсе иностранного языка за рубежом</a></li>
+						<li><a href="#">Программа обмена опытом</a></li>
+						<li><a href="#">Церемонии награждения</a></li>
+						<li><a href="#">Конгресс</a></li>
+						<li><a href="#">Съезд</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget">
+					<h3>Бизнес-ивенты</h3>
+					<ul>
+						<li><a href="#">Симпозиумс</a></li>
+						<li><a href="#">Прием для деловых партнеров</a></li>
+						<li><a href="#">Автографсесия</a></li>
+						<li><a href="#">Пресс-завтрак</a></li>
+						<li><a href="#">Пресс-конференция</a></li>
+						<li><a href="#">Пресс-тур</a></li>
+						<li><a href="#">Официальный прием</a></li>
+						<li><a href="#">Участие бренда в выставках/ярмарках</a></li>
+						<li><a href="#">Презентация для прессы</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget">
+					<h3>Путешествия</h3>
+					<ul>
+						<li><a href="#">Экскурсии по Киеву</a></li>
+						<li><a href="#">Экскурсии по Львову</a></li>
+						<li><a href="#">Туры в Карпаты</a></li>
+						<li><a href="#">Туры на море</a></li>
+						<li><a href="#">Однодневные туры</a></li>
+						<li><a href="#">Многодневные туры</a></li>
+						<li><a href="#">Событийные туры</a></li>
+						<li><a href="#">Винные туры</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="f_social">
+			<div class="container flex">
+				<div class="f_social_left flex align-center">
+					<span>Соціальні мережі:</span>
+					<ul class="flex">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="f_social_right">
+					<span>Платіжні системи:</span>
+					<ul>
+						<li><img src="lib/img/visa.png" alt=""/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="mobile_pay">
+			<img src="lib/img/ico_pay.png" alt="">
+		</div>
+		<div class="f_bottom">
+			<div class="container">
+				<p>Использование материалов, размещённых на сайте, разрешается при условии гиперссылки. Куда пойти в Киеве. Как отдохнуть и где расслабиться. Интересный отдых в Киеве и Украине.</p>
+				<p>Поддержка и развитие «Контент Маркетинг»</p>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="dropdown_menu_hide">
+		<div class="container">
+			<div class="menu_wrapper">
+				<ul>
+					<li><a href="#" class="link">О нас</a></li>
+					<li><a href="#" class="link">Услуги</a></li>
+					<li><a href="#" class="link">Партнерство</a></li>
+				</ul>
+				<ul>
+					<li><a href="#" class="link">Отдых и развлечения</a></li>
+					<li><a href="#" class="link">Бизнес ивенты</a></li>
+					<li><a href="#" class="link">Имиджевые мероприятия</a></li>
+					<li><a href="#" class="link">Путешествия</a></li>
+				</ul>
+			</div>
+			<div class="menu_wrapper flex justify-between burger_bottom_menu">
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Отдых и развлечения</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+						<li><a href="#">Туры выходного дня</a></li>
+						<li><a href="#">Популярные туры</a></li>
+						<li><a href="#">Романтические туры</a></li>
+						<li><a href="#">Туры в Карпаты</a></li>
+						<li><a href="#">Туры во Львов</a></li>
+						<li><a href="#">Туры по Закарпатью</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Экскурсии по Киеву</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Мастер-класы</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+					</ul>
+				</div>
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Развлечения</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+					</ul>
+				</div>
+
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Детям</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+					</ul>
+				</div>
+
+				<div class="menu_widget flex column">
+					<a class="heading accordion" href="#">Еще</a>
+					<ul class="panel">
+						<li><a href="#">Туры на Новый год</a></li>
+						<li><a href="#">Горнолыжные туры</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu_wrapper hide_pc">
+					<ul class="flex">
+						<li class="active_lang"><a href="#">Ru</a></li>
+						<li><a href="#">Ua</a></li>
+						<li><a href="#">En</a></li>
+					</ul>
+					<a href="tel:+380443903451">044 390 34 51</a>
+			</div>
+			<div class="menu_wrapper">
+					<ul class="dropdown_menu_social flex justify-between">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="shadow_bg"></div>
+	<div class="modal_order_onine modal_form " id="dialog">
+		<div class="order_form home_order_form">
+			<div class="container flex-center">
+				<form method="POST" id="modal_form_page">
+					<div class="scroll">
+						<span class="close_modal flex-center"><i class="fa fa-times" aria-hidden="true"></i></span>
+						<h3 class="titleh3">Заказать организацию ивента 
+						</h3>
+						<p>Просто оставьте заявку и в течение часа с вами свяжется менеджер 
+							для уточнения деталей заказа</p>
+						<div class="main_form_data flex">
+							<div class="input_wrapper">
+								<label for="locate">Что организовываем? </label>
+								<select name="locate" id="locate" class="custom-select">
+									<option disabled selected></option>
+									<option value="lvov">Копоратив</option>
+									<option value="lvov">Экскурсия</option>
+								</select>
+							</div>
+							<div class="input_wrapper input_wrapper2 flex justify-between">
+								<div class="col-6">
+									<label for="q-hu3">Кол-во человек:</label>
+									<div class="number_wrapper border-wrapper number-q-hu3 flex justify-between align-center">
+										<span class="number_minus">-</span>
+										<input type="number" name="qhu" id="q-hu3" min="1" max="2000" value="10">
+										<span class="number_plus">+</span>
+									</div>
+								</div>
+								<div class="col-6">
+									<label for="order-date">Дата:</label>
+									<div class="border-wrapper">
+										<input type="text" id="datepicker_modal">
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="main_form_data user-info">
+							<div class="input_wrapper">
+								<label for="form_name2">Имя:</label>
+								<input type="text" name="name" id="form_name2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_second_name2">Фамилия:</label>
+								<input type="text" name="secondname" id="form_second_name2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_phone2">Телефон:</label>
+								<input type="text" name="phone" id="form_phone2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_email2">E-mail:</label>
+								<input type="text" name="email" id="form_email2">
+							</div>
+						</div>
+						<input type="submit" class="submit_button" value="Отправить">
+
+						<div class="confirm flex-center">
+							<a href="#">
+								<i class="fa fa-info-circle"></i>
+							</a>
+							
+							<p >Отправляя данную заявку вы соглашаетесь с условиями «Публичной оферты»</p>
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="modal_thank_you">
+		<div class="modal flex-center column">
+			<span class="close_modal flex-center"><i class="fa fa-times" aria-hidden="true"></i></span>
+			<h3>Спасибо, 
+				ваша заявка отправлена</h3>
+				<div class="line"></div>
+			<p>В ближайшее время с вами свяжется менеджер <span>relax)</span></p>
+			<div class="submit_button close_thank_you_modal">Отлично :)</div>
+		</div>
+	</div>
+
+	<div class="modal_form_brief_home modal_form">
+		<div class="order_form home_order_form">
+			<div class="container flex-center">
+				<form method="POST" id="modal_form_page">
+					<div class="scroll">
+						<span class="close_modal flex-center"><i class="fa fa-times" aria-hidden="true"></i></span>
+						<h3 class="titleh3">Расскажите о ваших пожеланиях</h3>
+						<p>в течение 2 часов наш эксперт предоставит вам специальное предложение </p>
+						<div class="main_form_data">
+							<div class="input_wrapper">
+								<label for="locate">Где проводим?</label>
+								<select name="locate" id="locate" class="custom-select">
+									<option disabled selected></option>
+									<option value="lvov">Львов</option>
+									<option value="lvov">Киев</option>
+								</select>
+							</div>
+							<div class="input_wrapper input_wrapper2 flex justify-between">
+								<div class="col-3">
+									<label for="q-hu">Кол-во человек:</label>
+									<div class="number_wrapper border-wrapper number-q-hu flex justify-between align-center">
+										<span class="number_minus">-</span>
+										<input type="number" name="qhu" id="q-hu" min="1" max="2000" value="10">
+										<span class="number_plus">+</span>
+									</div>
+								</div>
+								<div class="col-3">
+									<label for="order-date">Дата:</label>
+									<div class="border-wrapper">
+										<input type="text" id="datepicker_brief_home">
+									</div>
+								</div>
+								<div class="col-3">
+									<label for="q-times">Сколько дней:</label>
+									<div class="number_wrapper border-wrapper number-q-times flex justify-between align-center">
+										<span class="number_minus">-</span>
+										<input  type="number" name="qtimes" id="q-times" min="1" max="20" value="1">
+										<span class="number_plus">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="main_form_data user-info">
+							<div class="input_wrapper">
+								<label for="form_name2">Имя:</label>
+								<input type="text" name="name" id="form_name2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_second_name2">Фамилия:</label>
+								<input type="text" name="secondname" id="form_second_name2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_phone2">Телефон:</label>
+								<input type="text" name="phone" id="form_phone2">
+							</div>
+							<div class="input_wrapper">
+								<label for="form_email2">E-mail:</label>
+								<input type="text" name="email" id="form_email2">
+							</div>
+						</div>
+						<input type="submit" class="submit_button" value="Отправить">
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<span class="submit_button open_modal fixed-btn flex-center">Заказать онлайн</span>
+
+	<script src="lib/js/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="lib/js/jquery.selectric.js"></script>
+	<script src="lib/js/slick.min.js"></script>
+	<script src="lib/js/selectize.min.js"></script>
+	<script src="lib/js/script.min.js"></script>
+</body>
+</html>
