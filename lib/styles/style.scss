@@ -1038,11 +1038,12 @@ h3.titleh3 {
 
 .partners-slider .slick-prev.slick-arrow {
   background: url(../img/arrow2.png);
+  transform: translateY(-90%);
 }
 
 .partners-slider .slick-next.slick-arrow {
   background: url(../img/arrow2.png);
-  transform: rotate(180deg);
+  transform: rotate(180deg) translateY(90%);
 }
 
 .tours-slider-wrapper .slick-prev.slick-arrow {
@@ -1063,7 +1064,7 @@ h3.titleh3 {
   width: 18px;
   height: 32px;
   font-size: 0px;
-  top: 38%;
+  top: 50%;
   cursor: pointer;
 }
 
@@ -1076,7 +1077,7 @@ h3.titleh3 {
   width: 18px;
   height: 32px;
   font-size: 0px;
-  top: 38%;
+  top: 50%;
   transform: rotate(180deg);
   cursor: pointer;
 }
@@ -2214,18 +2215,6 @@ button.ico_search {
     margin: 0px 10px;
   }
 
-  .qwer {
-    .slick-slide {
-      text-align: center;
-      width: 100%;
-      margin: 0px 0%;
-      width: 240px !important;
-      box-shadow: 0px 0px 5px #e1e1e1;
-      padding: 5px 0px 15px;
-      border-radius: 15px;
-      margin: 0px 10px;
-    }
-  }
 
   .about-relax-wrapper .slick-slide {
     text-align: center;
